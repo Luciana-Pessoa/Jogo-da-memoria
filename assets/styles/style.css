@@ -13,7 +13,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: #c7cdd3;
+    background-color: #eadbdb7c;
 }
 
 .banner{
@@ -43,7 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+    box-shadow: 10px 10px 10px rgba(9, 2, 60, 0.508);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -66,13 +66,13 @@ body{
 .card_front{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background-color: #101c2c;
+    background-color: #1f0337;
 
 }
 
 .card_back{
     color: #101c2c;
-    background-color: #05c3ff;
+    background-color: #dada08ab;
     font-size: 30px;
     /* display: none; */
 
@@ -128,4 +128,17 @@ body{
 border-radius:10px;
 
 }
+}
+
+footer {
+  position: absolute; 
+  bottom: 0px; 
+  width: 60%; 
+  height: 20px; 
+  background-color: rgba(253, 255, 253, 0);
+  text-align:center;
+  color: #9b98a366;
+
+
+  
 }
