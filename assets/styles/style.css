@@ -6,6 +6,9 @@
     
 }
 
+h1{
+    text-align: center;
+}
 
 body{
     font-family: 'Righteous', sans-serif;
@@ -46,7 +49,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(53, 31, 214, 0.671);
+    box-shadow: 10px 10px 10px rgba(98, 87, 182, 0.671);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -69,13 +72,13 @@ body{
 .card_front{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background-color: #0a0352;
+    background-color: #110c47;
 
 }
 
 .card_back{
-    color: #316cbe;
-    background-color: rgba(13, 243, 243, 0.932);
+    color: #0c1520;
+    background-color: rgb(13, 245, 245);
     font-size: 30px;
     /* display: none; */
 
